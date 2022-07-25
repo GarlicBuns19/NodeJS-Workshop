@@ -24,3 +24,9 @@ var timer = setInterval(function(){
         clearInterval(timer)
     }
 },2000);
+
+// Direct file path
+console.log(__dirname)
+
+// File path where the node is running
+console.log(__filename)
